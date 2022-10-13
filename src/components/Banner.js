@@ -3,13 +3,13 @@ import React from 'react';
 import Pixs from './Pixs';
 
 //image
-import Img from '../assets/img/banner-img.png';
+import Img from '../assets/img/yasuda.png';
 
 const Banner = () => {
   return (
     <section className="min-h-[600px] pt-24 pb-12 text-center relative lg:pt-48 lg:pb-0 lg:text-left">
       <div className="container mx-auto">
-        <div className="flex flex-col lg:flex-row">
+        <div className="flex flex-col lg:flex-row lg:justify-around">
           <div>
             <h1
               data-aos="fade-down"
